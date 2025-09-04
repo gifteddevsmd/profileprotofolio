@@ -24,14 +24,14 @@
 [![dave Merchant](https://github.com/giftdee.png?lenght=50width=50)](https://github.com/giftdee)
 </p>
 <p align="center">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=𝐁𝐋𝐀𝐂𝐊 𝐌𝐃" alt="">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=GIFTED MD" alt="">
 </p>
 <p align="center">
 <a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator- 𝐁𝐋𝐀𝐂𝐊𝐌𝐄𝐑𝐂𝐇𝐀𝐍𝐓-blue.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 <a href="https://github.com/giftdee?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/giftdee?label=Followers&style=social"></a>
-<a href="https://github.com/giftdee/GIFTED-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/giftdee/GIFTED-MD?&style=social"></a>
+<a href="https://github.com/huh234/GIFTED-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/giftdee/GIFTED-MD?&style=social"></a>
 <a href="https://github.com/giftdee/GIFTED-MD/network/members"><img title="Fork" src="https://img.shields.io/github/forks/giftdee/GIFTED-MD?style=social"></a>
 <a href="https://github.com/giftdee/GIFTED-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/giftdee/GIFTED-MD?label=Watching&style=social"></a>
 </p>
