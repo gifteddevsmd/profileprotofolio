@@ -64,28 +64,27 @@ router.get('/', async (_0x101b93, _0x38c4f2) => {
           lastDisconnect: _0x3d703d
         } = _0x59615c;
         if (_0x277b27 === "open") {
-  await delay(50000);
-  let _0x53f57f = fs.readFileSync(__dirname + ("/temp/" + _0x110751 + "/creds.json"));
-  await delay(8000);
-  let _0x4abf00 = Buffer.from(_0x53f57f).toString("base64");
-  let _0x1aeb62 = await _0x4e425a.sendMessage(_0x4e425a.user.id, {
-    'text': "dave~" + _0x4abf00
-  });
-  await _0x4e425a.sendMessage(_0x4e425a.user.id, {
-    'text': `
+          await delay(50000);
+          let _0x53f57f = fs.readFileSync(__dirname + ("/temp/" + _0x110751 + "/creds.json"));
+          await delay(8000);
+          let _0x4abf00 = Buffer.from(_0x53f57f).toString("base64");
+          let _0x1aeb62 = await _0x4e425a.sendMessage(_0x4e425a.user.id, {
+            'text': "MAKAMESCO-MD<=>" + _0x4abf00
+          });
+          await _0x4e425a.sendMessage(_0x4e425a.user.id, {
+            'text': "
 ╔════════════════════◇
 ║『 SESSION CONNECTED』
 ║ BOT: 𝘿𝙖𝙫𝙚𝘼𝙄
 ║ TYPE: BASE64 
-╚════════════════════◇
-`
-  }, {
-    'quoted': _0x1aeb62
-  });
-  await delay(100);
-  await _0x4e425a.ws.close();
-  return await removeFile("./temp/" + _0x110751);
-} else if (_0x277b27 === "close" && _0x3d703d && _0x3d703d.error && _0x3d703d.error.output.statusCode != 401) {
+╚════════════════════◇"
+          }, {
+            'quoted': _0x1aeb62
+          });
+          await delay(100);
+          await _0x4e425a.ws.close();
+          return await removeFile("./temp/" + _0x110751);
+        } else if (_0x277b27 === "close" && _0x3d703d && _0x3d703d.error && _0x3d703d.error.output.statusCode != 401) {
           await delay(10000);
           _0x2d7515();
         }
