@@ -1,5 +1,5 @@
 {
-    "description": "dave",
+    "description": "dave session generator",
     "main": "./voltah.js",
   "engines" : { 
     "npm" : ">=9.7.2",
@@ -8,10 +8,10 @@
     "scripts": {
     "start": "node voltah.js"
   },
-  "author": "DaveTech",
+  "author": "dave",
   "license": "GPL-3.0 license",
   "dependencies": {
-      "@fredi/baileys": "https://github.com:Slnckyami/Kyabaileys",
+    "@whiskeysockets/baileys": "latest",
     "maher-zubair-baileys": "^6.6.5",
     "qrcode": "^1.5.3",
     "awesome-phonenumber": "^2.64.0",
