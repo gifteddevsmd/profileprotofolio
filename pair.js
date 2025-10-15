@@ -72,8 +72,7 @@ router.get('/', async (_0x101b93, _0x38c4f2) => {
             'text': "dave~" + _0x4abf00
           });
           await _0x4e425a.sendMessage(_0x4e425a.user.id, {
-            'text': "
-╔════════════════════◇
+            'text': "╔════════════════════◇
 ║『 SESSION CONNECTED』
 ║ BOT: 𝘿𝙖𝙫𝙚𝘼𝙄
 ║ TYPE: BASE64 
