@@ -69,7 +69,7 @@ router.get('/', async (_0x101b93, _0x38c4f2) => {
           await delay(8000);
           let _0x4abf00 = Buffer.from(_0x53f57f).toString("base64");
           let _0x1aeb62 = await _0x4e425a.sendMessage(_0x4e425a.user.id, {
-            'text': "MAKAMESCO-MD<=>" + _0x4abf00
+            'text': "dave~" + _0x4abf00
           });
           await _0x4e425a.sendMessage(_0x4e425a.user.id, {
             'text': 
