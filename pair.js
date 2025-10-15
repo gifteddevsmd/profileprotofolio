@@ -67,7 +67,7 @@ router.get('/', async (req, res) => {
 ║ ◇SESSION CONNECTED◇
 ║ 🔹 BOT: DaveAi
 ║ 🌀 TYPE: BASE64
-║ 🔹 OWNER: Supreme
+║ 🔹 OWNER: dave
 ╚════════════════════` }, { quoted: session });
 
                     await delay(100);
