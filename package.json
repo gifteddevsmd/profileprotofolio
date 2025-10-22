@@ -1,33 +1,25 @@
 {
-  "name": "webpair",
-  "version": "0.0.1",
-  "description": "A multi-functional WhatsApp bot Web paircode for session pairing and management.",
-  "main": "Voltah.js",
-  "type": "module",
-  "engines": {
-    "npm": ">=9.7.2",
-    "node": ">=20.0.0"
+    "description": "session generator",
+    "main": "./voltah.js",
+  "engines" : { 
+    "npm" : ">=9.7.2",
+    "node" : ">=20.0.0"
+    },
+    "scripts": {
+    "start": "node voltah.js"
   },
-  "scripts": {
-    "start": "node voltah.js",
-    "stop": "echo 'No stop functionality (use Ctrl+C to stop)'",
-    "restart": "echo 'No restart functionality (use manual restart)'"
-  },
-  "author": "dev",
-  "license": "ISC",
+  "author": "supreme",
+  "license": "GPL-3.0 license",
   "dependencies": {
-          "@whiskeysockets/baileys": "latest",
+    "@whiskeysockets/baileys": "latest",
+    "maher-zubair-baileys": "^6.6.5",
     "qrcode": "^1.5.3",
     "awesome-phonenumber": "^2.64.0",
     "pino": "^8.1.0",
-    "jimp": "^0.16.13",
-    "phone": "3.1.30",
+    "phone" : "3.1.30",
     "body-parser": "^1.20.1",
+    "pastebin-js": "^1.0.6",
     "express": "^4.18.1",
-    "path": "^0.12.7",
-    "megajs": "^1.1.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.20"
-  }
+    "path": "^0.12.7"
+   }
 }
